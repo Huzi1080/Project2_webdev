@@ -1,131 +1,106 @@
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: black; /* Black background for the whole page */
-    color: white; /* Default text color is white */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 20px;
-}
-
-.container {
-    background-color: white; /* White container for content */
-    color: black; /* Text color inside the container */
-    padding: 40px;
-    width: 100%;
-    max-width: 1200px;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect to make it hover above the black */
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3 {
-    color: darkgray; /* Dark gray for headings */
-}
-
-h1 {
-    margin-bottom: 20px;
-}
-
-h2 {
-    margin-top: 20px;
-}
-
-h3 {
-    color: gray; /* Gray for subheadings */
+  color: #1d3557;
+  text-align: center;
 }
 
 p {
-    font-size: 16px;
-    color: gray; /* Gray text for paragraphs */
-    line-height: 1.6;
-    margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
-/* List Styling */
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+header {
+  background-color: #1d3557;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
-ul li {
-    margin-bottom: 5px;
-    color: gray; /* Gray for list items */
+header h1 {
+  font-size: 2.5rem;
 }
 
-ul li a {
-    color: darkgray; /* Dark gray for links */
-    text-decoration: none;
+header p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
-ul li a:hover {
-    color: gray; /* Hover color for links */
-}
-
-/* Directory Styling */
 .directory {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    padding: 15px;
-    background-color: darkgray; /* Dark gray background for directory */
-    font-weight: bold;
-    color: white;
-    border: 2px solid gray; /* Gray border */
-    border-radius: 8px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  background-color: #457b9d;
+}
+
+.directory li {
+  display: inline-block;
+  margin: 0 15px;
 }
 
 .directory a {
-    text-decoration: none;
-    color: white; /* White links inside the directory */
-    margin: 0 15px;
-    font-weight: bold;
-    transition: color 0.3s ease, transform 0.3s ease;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .directory a:hover {
-    color: #f4f4f4; /* Lighter white for hover effect */
-    transform: scale(1.1); /* Zoom effect on hover */
+  background-color: #1d3557;
 }
 
-@media (max-width: 600px) {
-    ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-    .container {
-        padding: 20px;
-        margin: 10px;
-    }
+section h2 {
+  color: #2a9d8f;
+}
 
-    h1 {
-        font-size: 24px;
-    }
+section h3 {
+  color: #264653;
+}
 
-    h2 {
-        font-size: 20px;
-    }
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
 
-    p {
-        font-size: 14px;
-    }
+a {
+  color: #2a9d8f;
+  text-decoration: none;
+}
 
-    .directory {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+a:hover {
+  text-decoration: underline;
+}
 
-    .directory a {
-        margin: 5px 0;
-    }
+ul li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .directory li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
 }
 
