@@ -68,6 +68,13 @@ h1, h3 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  color: #444444;  /* Optional: Adjust color if you need */
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 h3 {
   color: #444444;
   margin-top: 40px;
