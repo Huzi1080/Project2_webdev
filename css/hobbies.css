@@ -127,4 +127,14 @@ a:hover {
   .container {
     padding: 20px;
   }
+
+  ul {
+  list-style-type: disc;
+  padding-left: 20px;     
+  margin-bottom: 20px;    
+}
+
+ul li {
+  margin-bottom: 8px;    
+}
 }
