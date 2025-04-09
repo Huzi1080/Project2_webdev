@@ -9,7 +9,7 @@ body {
 
 .container {
   background-color: #ffffff;
-  color: #ffffff;
+  color: #000000;
   padding: 40px;
   margin: auto;
   max-width: 900px;
@@ -72,7 +72,7 @@ header a:hover {
 }
 
 .directory a {
-  color: #000000;
+  color: #ffffff;
   font-size: 1.2rem;
   text-decoration: none;
   padding: 8px 12px;
