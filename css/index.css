@@ -48,7 +48,7 @@ header p {
 }
 
 header a {
-  color: #789566;
+  color: #1D2D44;
   text-decoration: none;
   font-weight: bold;
 }
@@ -61,7 +61,7 @@ header a:hover {
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: #789566;
+  background-color: #1D2D44;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -81,7 +81,7 @@ header a:hover {
 }
 
 .directory a:hover {
-  background-color: #789566;
+  background-color: #1D2D44;
 }
 
 h2 {
