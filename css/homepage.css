@@ -29,6 +29,11 @@ header {
   color: white;
   padding: 30px 20px;
   border-radius: 12px 12px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+header:hover {
+  background-color: #3e2a18; 
 }
 
 header h1 {
