@@ -144,7 +144,7 @@ header a[href*="linkedin.com"] {
 }
 
 header a[href*="linkedin.com"]:hover {
-  background-color: #005582;
+  background-color: #ffffff;
   text-decoration: underline;
 }
 
