@@ -1,17 +1,29 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #000000; 
-  color: #333;
+  color: #ffffff;
   margin: 0;
-  padding: 0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 40px;
+  margin: auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  text-align: left;
 }
 
 header {
-  background: linear-gradient(to right, #444, #777); 
-  color: white;
+  background-color: #333333;
+  color: #ffffff;
   padding: 30px 20px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 12px 12px 0 0;
 }
 
 header h1 {
@@ -25,67 +37,63 @@ header p {
 }
 
 header a {
-  color: #f1faee;
+  color: #2a9d8f;
+  text-decoration: none;
   font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
 
 .directory {
   list-style: none;
   padding: 0;
-  text-align: center;
   margin: 0;
-  background-color: #333; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .directory li {
-  display: inline-block;
-  margin: 0 15px;
+  margin: 10px 20px;
 }
 
 .directory a {
-  color: white;
-  text-decoration: none;
+  color: #ffffff;
   font-size: 1.2rem;
-  padding: 10px;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 6px;
   transition: background-color 0.3s ease;
 }
 
 .directory a:hover {
-  background-color: #555; 
-}
-
-section {
-  padding: 30px;
-  margin: 30px auto;
-  max-width: 800px;
-  background-color: white; 
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-h1, h2, h3 {
-  text-align: center;
+  background-color: #444444;
 }
 
 h2 {
   color: #2a9d8f;
-  margin-top: 0;
+  text-align: center;
+  margin-top: 40px;
 }
 
 h3 {
-  color: #264653;
+  color: #333333;
+  margin-bottom: 5px;
 }
 
 p {
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 
 ul {
   list-style-type: square;
   padding-left: 20px;
+  margin-bottom: 20px;
 }
 
 ul li {
@@ -102,12 +110,16 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .directory li {
-    display: block;
-    margin-bottom: 10px;
+  .directory {
+    flex-direction: column;
+    align-items: center;
   }
 
   header h1 {
     font-size: 2rem;
+  }
+
+  .container {
+    padding: 20px;
   }
 }
