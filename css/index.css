@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  background-color: #4D301B;
+  background-color: #B2DBAF;
   color: #ffffff;
   padding: 30px 20px;
   text-align: center;
@@ -34,7 +34,7 @@ header {
 }
 
 header:hover {
-  background-color: #3e2a18; 
+  background-color: #B2DBAF; 
 }
 
 header h1 {
