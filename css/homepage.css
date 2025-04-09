@@ -52,14 +52,14 @@ nav {
 }
 
 .directory li {
-  margin: 10px 20px;
+  margin: 8px 16px; 
 }
 
 .directory a {
   color: #ffffff;
   font-size: 1.2rem;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 8px 12px; 
   border-radius: 6px;
   transition: background-color 0.3s ease;
 }
@@ -74,29 +74,30 @@ h1, h2, h3 {
 
 h2 {
   color: #444444;
-  margin-top: 40px;
+  margin-top: 30px; 
+  margin-bottom: 10px; 
 }
 
 h3 {
   color: #333333;
-  margin-bottom: 5px;
+  margin-bottom: 3px; 
 }
 
 p {
   font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1rem;
+  line-height: 1.4; 
+  margin-bottom: 8px; 
   text-align: center;
 }
 
 ul {
   list-style-type: square;
   padding-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px; 
 }
 
 ul li {
-  margin-bottom: 8px;
+  margin-bottom: 6px; 
 }
 
 img {
