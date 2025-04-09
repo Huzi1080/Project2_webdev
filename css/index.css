@@ -134,4 +134,14 @@ a:hover {
   .container {
     padding: 20px;
   }
+  
+  header a[href*="linkedin.com"] {
+  color: #ffffff; 
+  font-weight: bold;
+}
+
+header a[href*="linkedin.com"]:hover {
+  color: #005582; 
+  text-decoration: underline;
+}
 }
