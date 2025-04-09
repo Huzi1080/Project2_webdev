@@ -42,7 +42,7 @@ header h1 {
 }
 
 nav {
-  background-color: #789566;
+  background-color: #1D2D44;
   padding: 10px 0;
 }
 
@@ -70,7 +70,7 @@ nav {
 }
 
 .directory a:hover {
-  background-color: #789566;
+  background-color: #1D2D44;
 }
 
 h1, h2, h3 {
